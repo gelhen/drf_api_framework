@@ -1,9 +1,9 @@
 # drf_api_framework
 Baseado na Tech Talks do curso Python Pro, sobre Django Rest Framework - Parte 3
 
-Este API foi feito utilizando o Framework, Django REST framework.
+Este API foi feito utilizando o Framework Django REST framework.
 
-Sugestão para que quiser fazer tudo na mão, 
+Sugestão para que quiser fazer tudo na mão 
 e acompanhando a gravação da Tech Talk, como eu fiz, 
 faça isso vendo todas as três Techs.
 
