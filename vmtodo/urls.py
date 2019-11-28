@@ -17,11 +17,14 @@ from django.contrib import admin
 from django.urls import path
 from vmtodo.core.views import get_post_tasks, get_delete_put_tast_detail
 from vmtodo.drf.views import TaskList, TaskDetails
+from rest_framework_jwt.views import obtain_jwt_token, refresh_jwt_token
 
 urlpatterns = [
     path('drf/v1/tasks/', TaskList.as_view()),
     path('drf/v1/tasks/<int:pk>', TaskDetails.as_view()),
-    path('api/v1/tasks/', get_post_tasks),
-    path('api/v1/tasks/<int:pk>', get_delete_put_tast_detail),
+    #path('api/v1/tasks/', get_post_tasks),
+    #path('api/v1/tasks/<int:pk>', get_delete_put_tast_detail),
     path('admin/', admin.site.urls),
+    path('login/', obtain_jwt_token),
+    path('atualiza_token', refresh_jwt_token)
 ]

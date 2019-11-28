@@ -38,3 +38,7 @@ python manage.py runserver
 ```
 
 Faça o teste http://127.0.0.1:8000/drf/v1/tasks/
+
+Conficuração do [JWT](https://medium.com/@hudsonbrendon/autentica%C3%A7%C3%A3o-com-jwt-no-django-rest-framework-45626936c276) ou
+[DRF JWT](http://getblimp.github.io/django-rest-framework-jwt/#additional-settings)
+
